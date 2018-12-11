@@ -1,0 +1,51 @@
+body, html {
+height: 100%;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+/*El height ocupa el 80% de la pagina a lo alto.
+El display sirve para que los elementos son flexibles, para que se puedan mover libremente*/
+#main {
+height: 80%;
+display: -webkit-flex;
+display: flex;
+flex-flow: row;
+}
+/*El flex-grown sirve para modificar el aside
+El background sirve para cambiar el color de fondo del aside*/
+#main aside {
+background: #CCF;
+flex-grow: 1;	
+}
+/*El min-wight sirve para definir lo minimo que tiene que ocupar de anchura*/
+#main2 {
+min-width: 66%;
+}
+
+#main2 article{
+background: #CFC;
+min-height: 87.5%;
+}
+
+#main2 footer {
+background: blue;
+min-height: 12.5%;
+} 
+/*El display:block sirve para definir que tiene que ocupar toda la pagina*/
+nav {
+background: #CCF;
+display: block;
+min-height: 10%;
+}
+
+header {
+display: block;
+min-height: 10%;
+background: #FC6;
+}
+
+/* canvia la distribució de la plana posant el nav davall del header, i el aside a l'esquerra de l'article i el footer, el footer el mantenim a baix :) */
+
+
+
